@@ -22,7 +22,7 @@ Highlights:
 */
 
 -- =============================================================================
--- Create Report: gold.report_customers
+-- Create Report: dbo.report_customers
 -- =============================================================================
 IF OBJECT_ID('dbo.report_customers', 'V') IS NOT NULL
     DROP VIEW dbo.report_customers;
